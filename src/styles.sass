@@ -1,0 +1,300 @@
+
+.page-width
+  max-width: 1000px
+  
+.page-width-lg
+  max-width: 1100px
+
+.clickable
+  cursor: pointer
+
+.italics
+  font-style: italic
+
+.culpepper-bl-link:hover
+  text-decoration: underline
+
+.margin-top
+  margin-top: 20px
+
+.margin-top-sm
+  margin-top: 10px
+
+.margin-top-lg
+  margin-top: 30px
+
+.margin-top-xlg
+  margin-top: 50px
+
+.margin-bottom
+  margin-bottom: 20px
+
+.margin-bottom-sm
+  margin-bottom: 10px
+
+.margin-bottom-lg
+  margin-bottom: 40px
+
+.padding-top
+  padding-top: 20px
+
+.padding-top-sm
+  padding-top: 10px
+
+.padding-top-lg
+  padding-top: 40px
+
+.margin-left
+  margin-left: 20px
+  
+.margin-left-lg
+  margin-left: 30px
+
+.margin-left-sm
+  margin-left: 5px
+
+.padding-left
+  padding-left: 20px
+
+.fadeline
+  background-image: -moz-linear-gradient(#fff, #ccc, #fff)
+  background-image: -o-linear-gradient(#fff, #ccc, #fff)
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFF), color-stop(1, #ccc), color-stop(1, #fff))
+  background-image: -webkit-linear-gradient(#fff, #ccc, #fff)
+  background-image: linear-gradient(#fff, #ccc, #fff)
+  width: 85%
+  height: 3px
+  margin: 30px auto
+
+.constrain-width
+  max-width: 800px
+
+.phone-svg
+  width: 15px
+  display: inline-block
+  margin-left: 5px
+
+.phone
+  display: inline-block
+
+.e-pager .e-currentitem,
+.e-pager .e-currentitem:hover
+  background: #e3165b
+  color: #fff
+  opacity: 1
+
+.spinner
+  position: absolute
+  top: 45%
+  left: 45%
+
+.culpepper-tbl
+  table-layout: fixed
+  width: 100%
+
+.culpepper-tbl td
+  overflow: hidden
+
+ol li
+  margin-bottom: 10px
+
+.terms-body
+  margin-top: 15px
+
+.support-flex
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: flex-start
+  gap: 60px
+
+.flex-70
+  flex: 70%
+
+.flex-30
+  flex: 30%
+
+.flex-20
+  flex: 20%
+
+.flex-10
+  flex: 10%
+
+.flex-90
+  flex: 90%
+  
+.flex-25
+  flex: 25%
+
+.flex-50
+  flex: 50%
+
+.flex-40
+  flex: 40%
+
+.flex-60
+  flex: 60%
+
+.flex-80
+  flex: 80%
+
+.flex-20
+  flex: 20%
+
+.field-error
+  border: 1px solid crimson
+
+.errors
+  color: crimson
+  margin-top: 20px
+  white-space: pre-line
+
+/* Chrome, Safari, Edge, Opera */
+/* Hide input number arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+  -webkit-appearance: none
+  margin: 0
+
+@mixin custom-flex($flex-direction, $justify-content, $align-items, $gap) 
+  display: flex
+  flex-direction: $flex-direction
+  justify-content: $justify-content
+  align-items: $align-items
+  gap: $gap
+
+.mini-flex-row-between-center
+  @include custom-flex(row, space-between, center, 20px)
+
+.mini-flex-row-between-start
+  @include custom-flex(row, space-between, flex-start, 20px)
+
+.mini-flex-row-between-end
+  @include custom-flex(row, space-between, flex-end, 20px)
+
+.mini-flex-row-between-start-gap-50
+  @include custom-flex(row, space-between, flex-start, 50px)
+
+.mini-flex-row-start-center
+  @include custom-flex(row, flex-start, center, 20px)
+
+.mini-flex-row-start-top
+  @include custom-flex(row, flex-start, top, 20px)
+
+.mini-flex-row-start-top-gap-50
+  @include custom-flex(row, flex-start, top, 50px)
+
+.mini-flex-row-start-center-no-gap
+  @include custom-flex(row, flex-start, center, 0px)
+
+.mini-flex-row-end-center
+  @include custom-flex(row, flex-end, center, 20px)
+
+.mini-flex-row-end-center-no-gap
+  @include custom-flex(row, flex-end, center, 0px)
+
+
+
+.bold
+  font-weight: bold
+
+.underline
+  text-decoration: underline
+
+.superscript
+  vertical-align: top
+  font-size: 8pt
+  color: red
+  position: relative
+  top: -0.5em
+
+.dialog-lg
+  font-size: 13pt
+
+.inline
+  display: inline-block
+
+.middle
+  vertical-align: middle
+
+.top
+  vertical-align: top
+
+.right
+  text-align: right
+
+.center
+  text-align: center
+
+.margin-auto
+  margin-left: auto
+  margin-right: auto
+
+.field-width
+  width: 250px
+
+.field-width-lg
+  width: 450px
+
+.disabled
+  opacity: 0.5
+  cursor: not-allowed !important
+
+
+
+.popup-content
+  padding: 20px 20px 20px 20px
+
+.tabs
+  margin-top: 40px
+  display: flex
+  flex-direction: row
+  gap: 24px 
+  user-select: none
+
+.file-icons
+  margin-left: 5px
+
+.red
+  color: red
+
+.white
+  background-color: white
+  
+.spinner-small mat-spinner
+  height: 40px !important
+  width: 40px !important
+
+.spinner-x-small mat-spinner
+  height: 20px !important
+  width: 20px !important
+
+.no-select
+  user-select: none
+
+.dialog-drag
+  cursor: grab
+
+.report-tree
+  padding: 30px
+  background-color: white
+  color: black
+  border-radius: 5px
+
+.report-tree-title
+  font-weight: 600
+  font-size: 12px
+  line-height: 12px
+
+.padding-all
+  padding: 20px
+
+.border-bottom
+  border-bottom: 1px solid white
+
+.times-font
+  font-family: 'Times New Roman', Times, serif !important
+  font-size: 18px
+
+.paragraph-width
+  width: 400px

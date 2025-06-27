@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "OldSchoolFont";
+    src: url("assets/fonts/FeFCsc2.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+// html {
+//     background-image: linear-gradient(#eee, #aaa);
+// }
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    font-family: "OldSchoolFont";
+}
+
+h1 {
+    margin: 0px;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.padding-top {
+    padding-top: 10px;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.padding-left {
+    padding-left: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
